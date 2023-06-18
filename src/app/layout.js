@@ -7,7 +7,7 @@ export default function RootLayout({ children }) {
       <head>
         <title>The HisariaHub</title>
       </head>
-      <body>
+      <body className="flex flex-col min-h-screen">
         <Navbar/>
         {children}
         <Footer/>

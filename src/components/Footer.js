@@ -3,15 +3,13 @@ import Image from 'next/image'
 import Link from 'next/link'
 const Footer = () => {
   return (
-    <div>
+    <div className='mt-auto'>
     <footer class="bg-white dark:bg-gray-900">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
             <div class="md:flex md:justify-between">
-              <div class="mb-6 md:mb-0">
-                 
-              </div>
+              
               <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                  <div>
+                  <div className='border-2 border-gray-500 rounded-md p-5'>
                       <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Sridhar</h2>
                       <ul class="text-gray-600 dark:text-gray-400 font-medium">
                           <li class="mb-4">
@@ -22,7 +20,7 @@ const Footer = () => {
                           </li>
                       </ul>
                   </div>
-                  <div>
+                  <div className='border-2 border-gray-500 rounded-md p-5'>
                       <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Amit</h2>
                       <ul class="text-gray-600 dark:text-gray-400 font-medium">
                           <li class="mb-4">
@@ -33,7 +31,7 @@ const Footer = () => {
                           </li>
                       </ul>
                   </div>
-                  <div>
+                  <div className='border-2 border-gray-500 rounded-md p-5'>
                       <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Poonam</h2>
                       <ul class="text-gray-600 dark:text-gray-400 font-medium">
                           <li class="mb-4">
