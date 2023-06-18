@@ -10,18 +10,18 @@ const Footer = () => {
               
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-6">
     <div class="border-2 border-gray-500 rounded-md p-5">
-        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Sridhar</h2>
+        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Sridhar Hisaria</h2>
         <ul class="text-gray-600 dark:text-gray-400 font-medium">
             <li class="mb-4">
                 <a href="#" class="hover:underline">+91 9393930393</a>
             </li>
             <li>
-                <a href="#" class="hover:underline">hisariasridhar@gmail.com</a>
+                <a href="#" class="hover:underline">hisariaSridhar Hisaria@gmail.com</a>
             </li>
         </ul>
     </div>
     <div class="border-2 border-gray-500 rounded-md p-5">
-        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Amit</h2>
+        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Amit Hisaria</h2>
         <ul class="text-gray-600 dark:text-gray-400 font-medium">
             <li class="mb-4">
                 <a href="#" class="hover:underline ">+91 9540604499</a>
@@ -32,7 +32,7 @@ const Footer = () => {
         </ul>
     </div>
     <div class="border-2 border-gray-500 rounded-md p-5">
-        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Poonam</h2>
+        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Poonam Hisaria</h2>
         <ul class="text-gray-600 dark:text-gray-400 font-medium">
             <li class="mb-4">
                 <a href="#" class="hover:underline">+91 9711883376</a>
