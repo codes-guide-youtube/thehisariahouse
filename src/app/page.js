@@ -7,20 +7,7 @@ const quicklinks = [
     description: 'View Balance of Sridhar',
   
   },
-  {
-    id: 2,
-    user: 'Poonam',
-    href: '/poonam',
-    description: 'View Balance of Sridhar',
-  
-  },
-  {
-    id: 3,
-    user: 'Amit',
-    href: '/amit',
-    description: 'View Balance of Sridhar',
-  
-  },
+ 
   
 ]
 
