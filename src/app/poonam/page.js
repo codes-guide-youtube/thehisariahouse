@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Head from 'next/head'
 const links = [
   {
     id: 1,
@@ -14,6 +15,9 @@ const links = [
 export default function Amit() {
   return (
     <div className="bg-black py-24 sm:py-32">
+      <Head>
+        <title>Poonam</title>
+      </Head>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl"> Links</h2>

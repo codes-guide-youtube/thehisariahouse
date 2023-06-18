@@ -16,7 +16,7 @@ const Footer = () => {
                 <a href="#" class="hover:underline">+91 9393930393</a>
             </li>
             <li>
-                <a href="#" class="hover:underline">hisariaSridhar Hisaria@gmail.com</a>
+                <a href="#" class="hover:underline">hisariasridhar@gmail.com</a>
             </li>
         </ul>
     </div>

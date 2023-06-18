@@ -4,12 +4,9 @@ const quicklinks = [
     id: 1,
     user: 'Sridhar',
     href: '/sridhar/balance',
-    description: 'View Balance of Sridhar',
+    description: 'View Sridhar\'s Cashbook',
   
   },
-
- 
-  
 ]
 
 export default function Home() {

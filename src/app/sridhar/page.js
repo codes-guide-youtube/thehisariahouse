@@ -1,19 +1,18 @@
 import Link from 'next/link'
-const links = [
-  {
+import Head from 'next/head'
+const links = [{
     id: 1,
     href: '/sridhar/balance',
-    description: 'View Balance of Sridhar',
+    description: 'View Sridhar\'s Cashbook',
   
-  },
- 
- 
-  
-]
+  },]
 
 export default function Sridhar() {
   return (
     <div className="bg-black py-24 sm:py-32">
+      <Head>
+        <title>Sridhar</title>
+      </Head>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl"> Links</h2>
