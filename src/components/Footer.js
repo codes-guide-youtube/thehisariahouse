@@ -8,47 +8,48 @@ const Footer = () => {
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
             <div class="md:flex md:justify-between">
               
-              <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                  <div className='border-2 border-gray-500 rounded-md p-5'>
-                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Sridhar</h2>
-                      <ul class="text-gray-600 dark:text-gray-400 font-medium">
-                          <li class="mb-4">
-                              <Link href="#" class="hover:underline">+91 9393930393</Link>
-                          </li>
-                          <li>
-                              <Link href="#" class="hover:underline">hisariasridhar@gmail.com</Link>
-                          </li>
-                      </ul>
-                  </div>
-                  <div className='border-2 border-gray-500 rounded-md p-5'>
-                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Amit</h2>
-                      <ul class="text-gray-600 dark:text-gray-400 font-medium">
-                          <li class="mb-4">
-                          <Link href="#" class="hover:underline ">+91 9540604499</Link>
-                          </li>
-                          <li>
-                          <Link href="#" class="hover:underline">ahisaria79@gmail.com</Link>
-                          </li>
-                      </ul>
-                  </div>
-                  <div className='border-2 border-gray-500 rounded-md p-5'>
-                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Poonam</h2>
-                      <ul class="text-gray-600 dark:text-gray-400 font-medium">
-                          <li class="mb-4">
-                              <Link href="#" class="hover:underline">+91 9711883376</Link>
-                          </li>
-                          <li>
-                              <Link href="#" class="hover:underline">poonamhisaria@gmail.com</Link>
-                          </li>
-                      </ul>
-                  </div>
-              </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-6">
+    <div class="border-2 border-gray-500 rounded-md p-5">
+        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Sridhar</h2>
+        <ul class="text-gray-600 dark:text-gray-400 font-medium">
+            <li class="mb-4">
+                <a href="#" class="hover:underline">+91 9393930393</a>
+            </li>
+            <li>
+                <a href="#" class="hover:underline">hisariasridhar@gmail.com</a>
+            </li>
+        </ul>
+    </div>
+    <div class="border-2 border-gray-500 rounded-md p-5">
+        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Amit</h2>
+        <ul class="text-gray-600 dark:text-gray-400 font-medium">
+            <li class="mb-4">
+                <a href="#" class="hover:underline ">+91 9540604499</a>
+            </li>
+            <li>
+                <a href="#" class="hover:underline">ahisaria79@gmail.com</a>
+            </li>
+        </ul>
+    </div>
+    <div class="border-2 border-gray-500 rounded-md p-5">
+        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Poonam</h2>
+        <ul class="text-gray-600 dark:text-gray-400 font-medium">
+            <li class="mb-4">
+                <a href="#" class="hover:underline">+91 9711883376</a>
+            </li>
+            <li>
+                <a href="#" class="hover:underline">poonamhisaria@gmail.com</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
           </div>
           <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div class="sm:flex sm:items-center sm:justify-between">
               <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <Link href="/" class="hover:underline">The HisariaHub</Link>. 
               </span>
-              <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+              <div class="flex mt-4 sm:justify-center sm:mt-0">
                  
                   
                   <Link href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
