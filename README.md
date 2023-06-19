@@ -7,7 +7,7 @@ The HisariaHouse App is a family management application designed for the Hisaria
 
 The Cashbook page provides a view of the financial transactions for Sridhar Hisaria. It displays a list of transactions along with their details, including the amount, remarks, and date. The page also calculates and shows the current balance based on the transactions.
 
-To access the Cashbook page, got to the [balance page](https://thehisariahouse.vercel.app/sridhar/balance) 
+To access the Cashbook page, go to the [balance page](https://thehisariahouse.vercel.app/sridhar/balance) 
 
 ## Technologies Used
 
