@@ -13,7 +13,7 @@ const client = new Client()
   const collection_id = '648f17fd583550a5bc7a'
 
   let balance = 0
-const Page = () => {
+export default function Page (){
 const [transaction, settransaction] = useState([])
 useEffect(() => {
   let promise = databases.listDocuments(
@@ -76,5 +76,3 @@ transaction.forEach((transaction) => {
     </div>
   );
 };
-
-export default Page;
